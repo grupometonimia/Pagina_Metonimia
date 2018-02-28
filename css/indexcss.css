@@ -1,13 +1,19 @@
 /* *{
-  border: 1px solid red;
+  border:  solid red;
   margin: 10px;
 } */
 body{
   background: black;
 }
-#IdHeader {
-  background: red;
+
+.ClsCabecera img {
+  width: 300px;
+  height: 70px;
+}
+.ClsCabecera {
+  background: #EC6900;
   color: pink;
+  height: 76px;
 
 }
 /* .ClsCabecera {
@@ -25,5 +31,78 @@ body{
 }
 
 .ClsMenu {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ClsMenu button {
+  margin-top: 15px;
+  width: 150px;
+}
+.ClsFooter {
+  background: #EC6900;
+}
+.ClsFooter img {
+  width: 300px;
+  height: 70px;
+  margin-left: 40px;
+}
+.ClsContacto {
+  margin-top: 50px;
+  display: flex;
+  width: 400px;
+  flex-wrap:wrap;
+}
+.ClsContacto img {
+  display: block;
+}
+.ClsContacto strong {
+  display: block;
+}
+.ClsContacto a {
+  color: white;
+  text-decoration: none;
+  margin-left: 55px;
+}
+.ClsFooter {
+  margin-top: 40px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.Clsformulario {
+  display: flex;
+  width: 420px;
+  color: white;
+  margin-right: 50px;
+
+
+}
+
+.ClsColumna1, .ClsColumna2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ClsColumna1 {
+  margin-right: 15px;
+}
+.ClsIntereses {
+  width: 150px;
+}
+.ClsIntereses label {
+  font-size: 12px;
+}
+
+.Clsformulario label, .ClsSexo, .ClsIntereses {
+  margin-bottom: 10px;
+}
+.clsboton {
+  border-radius: 5px;
+  border: none;
+  background: #EC6900;
+  color: white;
+  padding: 7px;
 }

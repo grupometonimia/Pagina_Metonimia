@@ -10,44 +10,77 @@
     <header id="IdHeader" class="ClsCabecera">
       <!-- logo -->
       <figure>
-        <img src="" alt="">
+        <img src="imagenes/logometonimiawhite.png" alt="">
       </figure>
       <!-- termina logo -->
       <!-- Inicia menu de Cabecera -->
-      <nav class="ClsMenu">
-        <li id="IdLiPortada">
-          <a href="#">Portada</a>
-        </li>
-        <li>
-          <a href="#">Grupo Metonimia</a>
-        </li>
-        <li>
-          <a href="#">Servicios</a>
-        </li>
-        <li>
-          <a href="#">Eventos</a>
-        </li>
-        <li>
-          <a href="#">Publicaciones</a>
-        </li>
-        <li>
-          <a href="#">Galeria</a>
-        </li>
-        <li>
-          <a href="#">Libros</a>
-        </li>
-        <li>
-          <a href="#">Contacto</a>
-        </li>
-      </nav>
+
       <!-- termina menu de cabecera -->
     </header>
     <!-- termina Cabecera -->
-    <section>
+    <section class="ClsMenu">
+      <button type="button" name="button" class="clsboton">Conoce Mas</button>
+      <button type="button" name="button" class="clsboton">Grupo Metonimia</button>
+      <button type="button" name="button" class="clsboton">Servicios</button>
+      <button type="button" name="button" class="clsboton">Eventos</button>
+      <button type="button" name="button" class="clsboton">Publicaciones</button>
+      <button type="button" name="button" class="clsboton">Galeria</button>
+      <button type="button" name="button" class="clsboton">Libros</button>
+      <button type="button" name="button" class="clsboton">Contacto</button>
+  </section>
+  <div class="">
+    <div class="">
 
-    </section>
-    <section>
+    </div>
+    <div class="">
 
-    </section>
-  </body>
+    </div>
+
+  </div>
+  <footer class="ClsFooter">
+    <div class="ClsContacto">
+      <img src="imagenes/logometonimiawhite2.png" alt="Logotipo Blanco">
+      <a href="tel:+01123456789"><strong>Telefono</strong><span>123456789</span></a>
+      <a href="mailto:contacto@grupometonimia.org"><strong>E-mail</strong><span>contacto@grupometonimia.org</span></a>
+    </div>
+    <form class="Clsformulario">
+      <div class="ClsColumna1">
+        <label for="InNombre">Nombre</label>
+        <input type="text" required id="InNombre" name="nombre" value="">
+        <label for="InEmail">E-mail</label>
+        <input type="email" required id="InEmail" name="email" value="">
+        <div class="ClsSexo">
+          <label for="IdMujer">
+            <input type="radio" id="IdMujer" checked name="sexo" value="Mujer">Mujer
+          </label>
+          <label for="IdHombre">
+            <input type="radio" id="IdHombre" name="sexo" value="Hombre">Hombre
+          </label>
+        </div>
+        <div class="ClsIntereses">
+          <label for="IdCotizacion">
+            <input type="checkbox" id="IdCotizacion" checked name="intereses" value="Cotizacion">Cotizacion
+          </label>
+          <label for="IdReclamos">
+            <input type="checkbox" id="IdReclamos" name="intereses" value="Reclamos">Reclamos
+          </label>
+          <label for="IdComentarios">
+            <input type="checkbox" id="IdComentarios" name="intereses" value="Comentarios">Comentarios
+          </label>
+          <label for="IdOtros">
+            <input type="checkbox" id="IdOtros" name="intereses" value="Otros">Otros
+          </label>
+        </div>
+      </div>
+        <div class="ClsColumna2">
+        <label for="IdComentarios2"></label>
+        <textarea name="Comentarios" id="IdComentarios2" rows="8" cols="30"></textarea>
+        <input type="submit" name="" value="Enviar">
+      </div>
+
+    </form>
+
+  </footer>
+
+    </body>
 </html>
