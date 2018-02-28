@@ -1,0 +1,29 @@
+/* *{
+  border: 1px solid red;
+  margin: 10px;
+} */
+body{
+  background: black;
+}
+#IdHeader {
+  background: red;
+  color: pink;
+
+}
+/* .ClsCabecera {
+  background: blue;
+  color: pink;
+} */
+/* #IdLiPortada {
+  background: orange;
+  color: white;
+} */
+.ClsMenu li {
+  display: inline-block;
+  background: orange;
+  color: white;
+}
+
+.ClsMenu {
+  display: inline-block;
+}
